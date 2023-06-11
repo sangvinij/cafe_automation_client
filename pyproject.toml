@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cafe-automation-client"
+version = "0.1.0"
+description = ""
+authors = ["Artyom Vorozhbyanov <artyom.vorozhbyanov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cafe_automation_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+kivy = "^2.2.0"
+kivymd = "^1.1.1"
+mapview = "^1.0.6"
+kivy-garden = "^0.1.5"
+geopy = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
